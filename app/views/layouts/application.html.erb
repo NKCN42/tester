@@ -9,16 +9,27 @@
 </head>
 <body>
 	<div class="container">
+		<header>
 		<nav>
-			<% link_to "Home", "#"  %>
-			<% link_to "Help", "#"  %>
-			<% link_to "Sign in", "#"  %>
+			<% link_to "Home", '#'  %>
+			<% link_to "Help", '#'  %>
+			<% link_to "Sign in", '#'  %>
 			<!-- link_to "Text displayed", "link" 
 				"#" as a link means it doesn't go anywhere-->
 		</nav>
-	
+		</header>
 	</div>
 <%= yield %> <!-- When hitting this point,  -->
-
+<footer>
+	<nav>
+		<% link_to "About", '#'  %>
+		<% link_to "Contact", '#'  %>
+		<% link_to "News", 'http://news.railstutorial.org'  %>
+		<% link_to "Rails Tutorial", 'http://railstutorial.org'  %>
+		
+	</nav>
+	
+	
+</footer>
 </body>
 </html>
