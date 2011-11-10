@@ -14,3 +14,13 @@ use "bundle exec spork" and "rails server" on two visible terminal windows when 
        Using style 2 for this assignment.
        git checkout -b static-pages
 	NOTE: when branching, you may want to restart your spork and rails servers.       
+	
+	To check back in,
+	"git add"
+	"git commit"
+	"git push" 
+	"git checkout master"
+	"git merge static-pages"
+	"git push"
+	"git push heroku"
+	
