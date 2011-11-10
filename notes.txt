@@ -1,6 +1,16 @@
 Notes: 11/10/11
 
+Pre-class:
+use "bundle exec spork" and "rails server" on two visible terminal windows when working.
+
 1) Added logo image from cs4413 site to tester/app/assets/images
 2) Extracted blueprint zip (link on cs4413 site) to Desktop, 
    dragged extracted zip to tester/app/assets/stylesheets
-3) 
+3) "heroku create --stack cedar" used to create heroku remote reference. 
+4) pushed to git and heroku
+
+5) New style of working: check out master, then branch, then push. 
+   Details here: http://cs.utsa.edu/~cs4413/lectures/GitTechnology.html
+       Using style 2 for this assignment.
+       git checkout -b static-pages
+	NOTE: when branching, you may want to restart your spork and rails servers.       
