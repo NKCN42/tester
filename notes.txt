@@ -1,0 +1,6 @@
+Notes: 11/10/11
+
+1) Added logo image from cs4413 site to tester/app/assets/images
+2) Extracted blueprint zip (link on cs4413 site) to Desktop, 
+   dragged extracted zip to tester/app/assets/stylesheets
+3) 
